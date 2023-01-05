@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0.5rem;
   font-family: Montserrat, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
   color: hsl(176, 53%, 29%);
   background-color: #cbe9e7;
 }
@@ -16,8 +17,8 @@ h1 {
 
 img {
   align-items: center;
-  max-width: 500px;
-  max-height: 600px;
+  max-width: 400px;
+  max-height: auto;
 }
 
 .center-img {
@@ -49,4 +50,27 @@ ul.recipe-list {
   display: inline-block;
   text-align: center;
   list-style-type: none;
+}
+
+.description-container {
+  background-color: #62a5a1;
+}
+
+h3 {
+  font-weight: bold;
+  padding-top: 1rem;
+  text-decoration: underline;
+}
+
+p {
+  font-size: 16px;
+  font-style: italic;
+  padding: 0.5rem;
+}
+
+ul,
+ol,
+wh li {
+  padding-top: 0rem;
+  padding-left: 2rem;
 }
