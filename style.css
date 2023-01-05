@@ -1,7 +1,8 @@
 * {
   margin: 0;
+  padding: 0.5rem;
   font-family: Montserrat, Geneva, Tahoma, sans-serif;
-  color: #23736d;
+  color: hsl(176, 53%, 29%);
   background-color: #cbe9e7;
 }
 
@@ -13,13 +14,8 @@ h1 {
   text-transform: uppercase;
 }
 
-ul {
-  padding-top: 1rem;
-}
-
 img {
   align-items: center;
-  padding-top: 1rem;
   max-width: 500px;
   max-height: 600px;
 }
@@ -31,22 +27,26 @@ img {
   width: 50%;
 }
 
-/* unvisited link */
 a:link {
   color: #62a5a1;
 }
 
-/* visited link */
-a:visited {
-  color: #000000;
-}
-
-/* mouse over link */
 a:hover {
   color: #23736d;
 }
 
-/* selected link */
 a:active {
-  color: #000000;
+  color: #95cac6;
+}
+
+div.container {
+  text-align: center;
+  padding: 1rem;
+}
+
+ul.recipe-list {
+  padding-bottom: 2rem;
+  display: inline-block;
+  text-align: center;
+  list-style-type: none;
 }
